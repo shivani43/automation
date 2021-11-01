@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="TestScript2">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="TC02_Verify_DFW_NYK_ticket"/>
+        </methods>
+      </class> <!-- TestScript2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

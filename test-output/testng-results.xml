@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-28T07:14:18Z" name="Suite" finished-at="2021-10-28T07:14:42Z" duration-ms="24490">
+    <groups>
+    </groups>
+    <test started-at="2021-10-28T07:14:18Z" name="Default test" finished-at="2021-10-28T07:14:42Z" duration-ms="24490">
+      <class name="TestScript2">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:TestScript2@2e1ef60]" started-at="2021-10-28T12:44:18Z" name="suiteSetup" finished-at="2021-10-28T12:44:18Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method signature="TC02_Verify_DFW_NYK_ticket()[pri:0, instance:TestScript2@2e1ef60]" started-at="2021-10-28T12:44:18Z" name="TC02_Verify_DFW_NYK_ticket" finished-at="2021-10-28T12:44:42Z" duration-ms="24474" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[FAIL: After show more results> the flights are not updated]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: FAIL: After show more results> the flights are not updated
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at TestScript2.TC02_Verify_DFW_NYK_ticket(TestScript2.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Verify_DFW_NYK_ticket -->
+      </class> <!-- TestScript2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Suite -->
+</testng-results>
